@@ -9,9 +9,9 @@ Each grid is responsible for object detection. Now those Grid cells predict the 
 For every box, we have five main attributes: x and y for coordinates, w and h for width and height of the object, and a confidence score for the probability
 that the box containing the object.
 
-1. Folder structure :
+1. 📁Folder structure :
 	
-  -train_data
+  	-train_data
   
 		-images
 			-train
@@ -20,23 +20,23 @@ that the box containing the object.
 			-train
 			-val
 
-	Since coco yaml looks for the annotated labels the folder must be in this format. 
+	The folder must be in this format since coco yaml looks for annotated labels. 
 
-2. Image annotation is done using https://www.makesense.ai/
+2. Image annotation ✏️ is done using [Make Sense](https://www.makesense.ai/)
 
-3. The export annotation should be in A .zip package containing files in YOLO format.
+3. The export annotation should be in the form of a.zip file containing YOLO files.
 
-4. Annotate both the train and val data and put it in the labels folder.
+4. Both the train and the val data should be annotated and saved in the labels folder.
 
-5. Navigate to https://github.com/ultralytics/yolov5 and open with colab.
+5. Navigate 🚀 to [Ultralytics](https://github.com/ultralytics/yolov5) and open with colab.
 
-6. Compress the train_data folder containing the images and label into a compressed zip folder and 	  upload the same to colab. 
+6. Compress the images and labels in the train data folder into a compressed zip folder and upload it to colab.
 
 7. Unzip the file in the colab.
 
-8. Download the COCO128.yaml file from files -> yolov5 -> data.
+8. Download ⬇️ the COCO128.yaml file from files -> yolov5 -> data.
 
-9. Rename the file. Here we are only going with a single class called the 'chicken'. 
+9. Rename 📝 the file. Here we are only going with a single class called the 'chicken'. 
 
 10. Edit the 'nc' i.e., number of classes. Here we give it as 1.
 
@@ -46,7 +46,10 @@ that the box containing the object.
 
 13. Upload the edited yaml file again.
 
-14. Train the dataset. 
+14. Train the dataset. 📚
+
+Feel free to check the report here : [wandbi.ai](https://wandb.ai/ajithsam/YOLOv5/reports/Object-Detection-YOLOv5--VmlldzoxMTI3OTA3)
+	
 
 
 
