@@ -48,7 +48,7 @@ that the box containing the object.
 
 14. Train the dataset. 📚
 
-Feel free to check the report here : [wandbi.ai](https://wandb.ai/ajithsam/YOLOv5/reports/Object-Detection-YOLOv5--VmlldzoxMTI3OTA3)
+Feel free to check the report here : [wandbi.ai](https://wandb.ai/ajithsam/YOLOv5/reports/Object-Detection-YOLOv5--VmlldzoxMTI3OTA3?accessToken=smkn0yk3s112y6ajt4rka6g4vca0wqjj7twfy8tb4qurvh7tvw47zyh6ikubf43i)
 	
 
 
